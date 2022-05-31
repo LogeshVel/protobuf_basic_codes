@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "myproto/pb";
+
+message SimpleMessage{
+    int32 id = 1;
+    string msg = 2;
+}
+

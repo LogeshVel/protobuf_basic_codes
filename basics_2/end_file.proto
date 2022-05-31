@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "simple.proto";
+
+message Me{
+    mypackage.simple.MyColor my_color = 1;
+}
+
+
+
+
+

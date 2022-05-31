@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+enum MessageType {
+    MESSAGE_TYPE_INVALID = 0;
+    MESSAGE_TYPE_UNSET = 1;
+    MESSAGE_TYPE_EMERGENCY = 2;
+    MESSAGE_TYPE_UPDATE = 3;
+}
+// My First Message in Protocol Buffers
+message FirstMessage{
+    int32 id = 1;
+    string msg = 2;
+    string sender = 3;
+    MessageType msg_type = 4;
+}
+
+

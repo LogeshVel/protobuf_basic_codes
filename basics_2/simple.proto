@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package mypackage.simple;
+
+enum MyColor{
+    MY_COLOR_UNSET = 0;
+    MY_COLOR_RED = 1;
+    MY_COLOR_GREEN = 2;
+    MY_COLOR_BLUE = 3;
+}
+
